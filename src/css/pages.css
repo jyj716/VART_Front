@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.App-background-color {
+  background-color: #f8f9fa;
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+.app-header {
+  
+  background-color: white;
+  height: 390px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: black;
+  padding: 106px 0 53px;
+  overflow: hidden;
+  
+  
+}
+
+.app-body {
+  background-color: white;
+  margin: 45px auto 0;
+  margin-bottom: 24px;
+  /* width: 70%; */
+}
+
+.app-body-black {
+  background-color: #f8f9fa;
+  margin: 32px auto 0;
+  /* 구간별 하단 여백 */
+  margin-bottom: 12px;
+}
+
+.faq-body {
+  background-color: white;
+  width: 100%;
+  margin: 32px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.announcement-form {
+  margin: 30px;
+}
+
+
+.service-form {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.table-font-title {
+  font-size: 18px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+
+}
+
+.MainButton{
+  margin-top:100px;
+  margin-left:120px;
+  max-height: 600px;
+  max-width: 2000px;
+  
+  width:200px;
+  position: absolute;
+  background-size: cover;
+}
+
+.MainFont{
+  color: rgb(48, 45, 219);
+}
+
+.LoginBox{
+  max-width: 400px;
+  margin: auto;
+}
+
+.image{
+  margin-left: 700px;
+  max-height: 600px;
+  max-width: 2000px;
+  overflow: hidden;
+}
+
+.cc-carousel-item-image{
+  width: 300px;
+  height: 88px;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+}
+.navbar-logo{
+  max-height: 400px;
+  max-width: 400px;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
+}
+.cc-max{
+  max-height: 400px;
+  max-width: 1000px;
+  overflow: hidden;
+}
+
+.image-size {
+width:300px;
+height:300px;
+}
+
+.bg{
+  position: fixed;
+  background:#ffffff;
+  top:0;
+  left: 0;
+  right: 0;
+  border-bottom: solid 1px rgb(179, 178, 178);
+  z-index: 1;
+
+  }
+.About{
+max-width: 2000px;
+max-height: 2000px;
+}
+
+.NavLog{
+top:0;
+left: 0;
+
+}
+
+/* Desktop */
+.service-card{
+    width:500px;
+    height:450px; 
+    align-items:center
+}
+
+/*  */
+.github{
+width: 300px;
+height: 150px;
+
+}
+
+
